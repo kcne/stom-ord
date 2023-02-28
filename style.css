@@ -1,0 +1,14 @@
+#navbar{
+  background: linear-gradient(90.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 31.98%);
+}
+#hero{
+  background-image: url("/public/background-hero.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: #303030;
+  height:669px;
+}
+#call-btn{
+  margin-left:10px;
+}
