@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stomatoloska Ordinacija</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div id="app"></div>
-    <div id="hero" class="container-fluid">
+    <section id="hero" class="container-fluid">
       <div class="row">
         <nav id="navbar" class="navbar navbar-expand-md navbar-dark " aria-label="Fourth navbar example">
           <div class="container-fluid">
@@ -22,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarsExample04">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item p-md-2"> 
-                  <a class="nav-link active border" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active border-blue pd-2" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item p-md-2">
-                  <a class="nav-link border" href="#">Usluge</a>
+                  <a class="nav-link border-blue" href="#">Usluge</a>
                 </li>
                 <li class="nav-item p-md-2">
-                  <a class="nav-link border" href="#">Kontakt</a>
+                  <a class="nav-link border-blue" href="#">Kontakt</a>
                 </li>
                 <li class="nav-item p-md-2">
-                  <a class="nav-link border" href="#">Nas Tim</a>
+                  <a class="nav-link border-blue" href="#">Nas Tim</a>
                 </li>
               </ul>
             </div>
@@ -43,17 +44,16 @@
         <div class="col-5 p-5 mt-5 gap">
           <h1 class="col-12 p-3 pt-5 pb-5 text-warning border rounded-3 border-dark">Blistav osmeh je <br>ogledalo Vaseg zdravlja,<br>vase zdravlje je nasa briga.</h1>
           <div class="buttons mt-5 d-flex justify-content-between">
-            <button id="book-ap-btn" type="button" class="btn btn-warning w-50">Warning</button>
-            <button id="call-btn" type="button" class="btn btn-outline-warning  w-50">Warning</button>
+            <button id="book-ap-btn" type="button" class="btn btn-warning w-50 btn-h btn-hero-hover pb-5"><i class="bi bi-calendar-plus fi-1-5em p-2 pb-3"></i> ZAKAZITE SVOJ TERMIN</button>
+            <button id="call-btn" type="button" class="btn btn-outline-warning  w-50 btn-h pb-5"><i class="bi bi-telephone-outbound fi-1-5em p-2 pb-3"></i> POZOVITE NAS</button>
           </div>
-          <button type="button" class="btn btn-primary mt-4 col-4">
+          <button type="button" class="btn text-white blue-bg mt-4 col-12 border-0 blue-hover">
             OTVORENO <br> radno vreme
           </button>
-
         </div>
       </div>
 
-    </div>
+    </section>
     
   <script type="module" src="/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

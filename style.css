@@ -12,3 +12,40 @@
 #call-btn{
   margin-left:10px;
 }
+#call-btn:hover{
+  background-color: #EAAC24;
+}
+.orange{
+  color:#EAAC24;
+}
+.orange-bg{
+  background-color:#EAAC24;
+}
+.blue-bg{
+  background-color:#069EA8;
+}
+.blue{
+  color:#069EA8;
+}
+.blue-hover:hover{
+  background-color: #077e879d;
+}
+.h1-fs{
+  font-size: 40px;
+}
+.btn-h{
+  height:49px;
+}
+.btn-fs{
+  font-size:14px;
+}
+.btn-hero-hover:hover{
+  background:none;
+  color:#EAAC24;
+}
+.border-blue{
+  border: 1px solid #069EA8;
+}
+.fi-1-5em{
+  font-size: 1.5em;
+}
